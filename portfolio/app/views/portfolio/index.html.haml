@@ -1,0 +1,17 @@
+.wrapper  
+  = render "shared/header"
+  .top
+    .top-name
+      KOMETANI MIZUKI
+      .top-name__title
+        portfolio
+  .middle
+    .middle__content
+      .middle__content__box1.animate
+        = link_to 'profile', '/portfolio/profile', class: 'link'
+      .middle__content__box2.animate
+        = link_to 'work', '/portfolio/work', class: 'link'
+      .middle__content__box3.animate
+        = link_to 'message', '/portfolio/mail', class: 'mail'
+  
+  .footer
