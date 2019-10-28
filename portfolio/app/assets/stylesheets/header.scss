@@ -1,0 +1,43 @@
+.wrapper {
+  background-color: white;
+
+  .header {
+    width: 100%;
+    height: 50px;
+
+    &__right {
+
+      .menu {
+        color: black;
+        padding-top: 20px;
+        font-size: 25px;
+        float: right;
+        padding-right: 25px;
+      }
+      .toggle {
+        display: none;
+
+        .nav-bar {
+          display: inline-block;
+          font-size: 15px;
+          float: right;
+          text-align: right;
+          padding: 50px 10px;
+          list-style-type: none;
+          width: 106px;
+          overflow: hidden;
+        }
+      }
+    }
+    &__left {
+      .back {
+        color: black;
+        padding-top: 20px;
+        font-size: 25px;
+        float: left;
+        margin-left: 25px;
+      }
+    }
+  }
+}
+ 
