@@ -5,4 +5,26 @@
       WORK
     
   .middle-work
-    .middle-work__box1
+    .work-box
+      %a.modal-open{"data-target":"modal1", href: "", class: "work-box"} Mini blog
+    #modal1.modal
+      .modal__bg
+        .modal__content
+          ここにコンテンツ
+          .modal-close{href: ""} back
+          
+    .work-box
+      %a.modal-open{"data-target":"modal2", href: "", class: "work-box"} Chat-Space
+      #modal2.modal
+        .modal__bg.modal-close
+        .modal__content
+          ここにコンテンツ
+          .modal-close{href: ""} back
+
+    .work-box
+      %a.modal-open{"data-target":"modal3", href: "", class: "work-box"} Mercari crone
+      #modal3.modal
+        .modal__bg
+        .modal__content
+          ここにコンテンツ
+          .modal-close{href: ""} back
