@@ -5,25 +5,24 @@
       WORK
     
   .middle-work
-    .middle-work__show
-      %a.modal-open{"data-target":"modal1", href: "", class: "work-box"} Mini blog
-      %a.modal-open{"data-target":"modal2", href: "", class: "work-box"} Chat-Space
-      %a.modal-open{"data-target":"modal3", href: "", class: "work-box"} Mercari crone
+    %a.modal-open{"data-target":"modal1", href: "", class: "work-box"} Mini blog
+    %a.modal-open{"data-target":"modal2", href: "", class: "work-box"} Chat-Space
+    %a.modal-open{"data-target":"modal3", href: "", class: "work-box"} Mercari crone
     
-      #modal1.modal
-        .modal__bg
-        .modal__content
-          ここにコンテンツ
-          .modal-close{href: ""} back
+    #modal1.modal
+      .modal__bg.modal-close
+      .modal__content
+        .modal__content__name Miniblog
+        .modal-close{href: ""} BACK
 
-        #modal2.modal
-          .modal__bg
-          .modal__content
-            ここにコンテンツ
-            .modal-close{href: ""} back
+    #modal2.modal
+      .modal__bg.modal-close
+      .modal__content
+        .modal__content__name Chat-space
+        .modal-close{href: ""} BACK
 
-        #modal3.modal
-          .modal__bg
-          .modal__content
-            ここにコンテンツ
-            .modal-close{href: ""} back
+    #modal3.modal
+      .modal__bg.modal-close
+      .modal__content
+        .modal__content__name メルカリクローンサイト
+        .modal-close{href: ""} BACK
