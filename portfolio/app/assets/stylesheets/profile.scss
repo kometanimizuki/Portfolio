@@ -2,7 +2,7 @@
   height: 400px;
   border: olive;
   &__content-left {
-    margin: 80px 0 0 70px;
+    margin: 80px 0 0 45px;
     width: 200px;
     height: 250px;
     float: left;
@@ -10,7 +10,7 @@
   &__content-right {
     float: right;
     display: inline-block;
-    margin: 80px 90px 0 0;
+    margin: 80px 20px 0 0;
     width: 275px;
   }
 }
