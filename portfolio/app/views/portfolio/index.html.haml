@@ -5,13 +5,29 @@
       KOMETANI MIZUKI
       .top-name__title
         portfolio
-  .middle
-    .middle__content
-      .middle__content__box1.animate
-        = link_to 'profile', '/portfolio/profile', class: 'link'
-      .middle__content__box2.animate
-        = link_to 'work', '/portfolio/work', class: 'link'
-      .middle__content__box3.animate
-        = link_to 'message', '/portfolio/mail', class: 'mail'
-  
+
+  .middle-work
+    %a.modal-open{"data-target":"modal1", href: "", class: "work-box"} PROFILE
+    %a.modal-open{"data-target":"modal2", href: "", class: "work-box"} Work
+    %a.modal-open{"data-target":"modal3", href: "", class: "work-box"} Contact
+    
+    #modal1.modal
+      .modal__bg.modal-close
+      .modal__content
+        .modal__content__name PROFILE
+        = render "portfolio/profile"
+        .modal-close{href: ""} BACK
+
+    #modal2.modal
+      .modal__bg.modal-close
+      .modal__content
+        .modal__content__name Work
+        .modal-close{href: ""} BACK
+
+    #modal3.modal
+      .modal__bg.modal-close
+      .modal__content
+        .modal__content__name Contact
+        .modal-close{href: ""} BACK
+
   .footer
