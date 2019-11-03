@@ -7,9 +7,12 @@
         portfolio
 
   .middle-work
-    %a.modal-open{"data-target":"modal1", href: "", class: "work-box"} PROFILE
-    %a.modal-open{"data-target":"modal2", href: "", class: "work-box"} Work
-    %a.modal-open{"data-target":"modal3", href: "", class: "work-box"} Contact
+    %a.modal-open{"data-target":"modal1", href: "", class: "work-box"}
+      .work-box__title PROFILE
+    %a.modal-open{"data-target":"modal2", href: "", class: "work-box"}
+      .work-box__title PRODUCT
+    %a.modal-open{"data-target":"modal3", href: "", class: "work-box"}
+      .work-box__title CONTACT
     
     #modal1.modal
       .modal__bg.modal-close
