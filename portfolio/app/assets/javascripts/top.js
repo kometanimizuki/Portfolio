@@ -5,7 +5,7 @@ $(document).on('turbolinks:load', function() {
     autoStart: true,
     inEffects: [],
     minDisplayTime: 3000,
-    initialDelay: 3000,
+    initialDelay: 2000,
 
     in: {
       effect: 'flipInX',
