@@ -1,11 +1,11 @@
 $(document).on('turbolinks:load', function() {
   $('#title1').textillate({
     selector: 'texts',
-    loop: false,
+    loop: true,
     autoStart: true,
     inEffects: [],
     minDisplayTime: 3000,
-    initialDelay: 2000,
+    initialDelay: 3000,
 
     in: {
       effect: 'flipInX',
@@ -19,7 +19,7 @@ $(document).on('turbolinks:load', function() {
   });
   $('#title2').textillate({
     selector: 'texts',
-    loop: false,
+    loop: true,
     autoStart: true,
     inEffects: [],
     minDisplayTime: 3000,
@@ -37,7 +37,7 @@ $(document).on('turbolinks:load', function() {
   });
   $('#title3').textillate({
     selector: 'texts',
-    loop: false,
+    loop: true,
     autoStart: true,
     inEffects: [],
     minDisplayTime: 3000,
