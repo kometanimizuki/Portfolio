@@ -1,12 +1,14 @@
 .profile {
   height: 400px;
-  border: olive;
 
   &__content-left {
     margin: 80px 0 0 45px;
     width: 300px;
     height: 250px;
     float: left;
+  }
+  .face {
+    border-radius: 50px;
   }
   &__content-right {
     float: right;
