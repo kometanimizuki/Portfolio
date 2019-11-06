@@ -17,20 +17,25 @@
     #modal1.modal
       .modal__bg.modal-close
       .modal__content
-        .modal__content__name PROFILE
+        .modal__content__name
+          #title1 PROFILE
         = render "portfolio/profile"
         .modal-close{href: ""} BACK
 
     #modal2.modal
       .modal__bg.modal-close
       .modal__content
-        .modal__content__name Work
+        .modal__content__name
+          #title2 PRODUCT
+        = render "portfolio/product"
         .modal-close{href: ""} BACK
 
     #modal3.modal
       .modal__bg.modal-close
       .modal__content
-        .modal__content__name Contact
+        .modal__content__name 
+          #title3 CONTACT
+        = render "portfolio/mailer"
         .modal-close{href: ""} BACK
 
   .footer

@@ -28,6 +28,7 @@
       margin: 20px 10px 0 10px;
       text-align: center;
       border: solid 15px white;
+      border-radius: 15px;
 
       &__title {
         color: #E85A70;
@@ -55,9 +56,10 @@
       padding: 40px;
       position: fixed;
       width: 100vh;
-      height: 550px;
+      height: 570px;
       top: 150px;
       z-index: 2;
+      border-radius: 25px;
   
       &__name {
         font-size: 35px;

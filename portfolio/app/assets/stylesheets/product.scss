@@ -1,0 +1,25 @@
+.product{
+  &__box {
+    width: 790px;
+    margin: 20px 90px;
+
+    &__image{
+      width: 790px;
+      height: 120px;
+      display: flex;
+  
+
+      .image {
+        height: 120px;
+        width: 215px;
+      }
+
+      &__intro {
+        display: inline-block;
+        margin-left: 35px;
+        width: 500px;
+        height: 100px;
+      }
+    }
+  }
+}
