@@ -1,5 +1,8 @@
 body {
   font-family: 'Noto Sans JP','Dosis Medium',  sans-serif;
+  a {
+    text-decoration-line: none;
+  }
 }
 
 @import "ress.css";
